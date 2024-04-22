@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- link css  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- link font  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>CYBERSAPIENS</title>
+</head>
+<body>
+    <!-- >>>>>>>>>>>>>>> N A V <<<<<<<<<<<<<<<   -->
+
+    <nav class="flex-r container"> <a name="home"></a>
+        <h1 class="nav-logo">CYBERSAPIENS</h1>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a style="color: white; " class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white; " class="nav-link" href="#robo">O robô</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white; " class="nav-link" href="#galeria">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white; " class="nav-link" href="#equipe">Saiba quem somos!</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: white; " class="nav-link" href="#formulario">Fale conosco</a>
+              </li>
+          </ul>
+    </nav>
+
+        
+    <!-- >>>>>>>>>>>>>>> M A I N <<<<<<<<<<<<<<<   -->
+
+    <main class="flex-r container">
+        <div class="flex-c main-text">
+            <h1 class="lg-head">O site oficial da nossa ROBOCUP!</h1>
+            <h2 class="m-head">SOMOS CYBER, SOMOS TECH. </h2>
+            <p class="para">
+                Esse é o espaço oficial do grupo CYBERSAPIENS, onde
+                registraremos nossa longa jornada até aqui. <br>
+                Complexa, estressante e divertida, essa é
+                a nossa história.
+            </p>
+        </div>
+
+        <div class="flex-r main-img">
+            <img src="./img/hero-img.png" alt="">
+        </div>
+      
+    </main>
+  <!--ESPAÇO-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--ESPAÇO-->
+    <!--sobre o robo-->
+
+    <h1 class="lg-head">SOBRE O ROBÔ<a name="robo"></a></h1>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Hardware
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Arduino Mega 2560, Protoboard, Jumpers, Resistores, Fita RGB, Modelo HC-06, Driver Ponte H. </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Arma
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Agulhas Hipodérmicas, Motores Servos, Bola de isopor, Hashi. <br> Ao robô bater ou baterem nele ___ acionam e a haste de hashi aciona girando 180 graus para estourar o balão adversario</div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!--ESPAÇO-->
+      <br>
+      <br>
+      <br>
+      <!--ESPAÇO-->
+   <!--  CAROUSEL </h1> -->
+   <h5 class="lg-head">Galeria<a name="galeria"></a></h5>
+   <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators" ><a name="#galeria"></a>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/img-robo1.jpeg" class="d-block w-100" alt="">            
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img-robo2.jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img-robo3.jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img-robo4.jpeg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img-robo5.jpeg" class="d-block w-100" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+<!--ESPAÇO-->
+<br>
+<br>
+<br>
+<!--ESPAÇO-->
+
+  <!--RATIO VIDEO-->
+  <div class="ratio-16x9">
+    <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/O3aFCecfugM?si=1CZXT26sjax0lr7a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <br>
+  <div class="ratio-16x9">
+    <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/73uq1giM0m0?si=2JBNC-RUUC_4YMZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <!--ESPAÇO-->
+<br>
+<br>
+<!--ESPAÇO-->
+
+<!-- NOSSA EQUIPE-->
+<h1 class="lg-head">NOSSA ESQUIPE</h1> <a name="equipe"></a></h1>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="./img/fotoenzo.jpeg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Enzo Nicolosi</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./img/fotocandy.jpeg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Davi Kendy</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./img/fotorick.jpeg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Rickson Hirata</h5>    
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./img/fotochan.jpeg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Vitor Chan</h5>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<h1 class="lg-head" >O EVENTO</h1>
+<p class="texto">O next é um evento promovido pela FIAP, sendo ele voltado à tecnologia e expor projetos dos alunos como start ups e nossa robocup</p>
+
+<h1 class="lg-head">ROBOCUP</h1>
+<p class="texto">É uma luta de robôs entre grupos dos estudandes do primeiro ano de Sistemas de Informação, o robô será desenvolvido por equipes de até 5 alunos de todas as turmas de 1os anos, do curso de SI, totalizando cerca de 70 equipes.Cada equipe deverá construir um robô sobre a base de um carrinho com controle através do módulo bluetooth (acionado pelo celular) capaz de transportar uma bexiga, munido de uma arma, que será controlada através do ARDUINO(mega). Uma vez construídos os robôs, as equipes se enfrentarão numa disputa em que o robô vencedor será aquele que conseguir manter a sua bexiga intacta, estourando o balão de todos os seus adversários. Há regras específicas para a construção dos robôs, como limite de tamanho, material permitido na sua confecção, altura e peso, e regras específicas para a competição, como tempo de enfrentamento, uso obrigatório de controle remoto sem fio no celular, dentre outras regras internacionalmente concebidas.</p>
+
+<br>
+<br>
+<br>
+
+   <!-- formulario-->
+<h1 class="lg-head">Fale conosco! <a name="formulario"></a></h1>
+   <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Endereço de email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+      <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Telefone</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+    </div>
+    <button type="submit" class="btn-form">Enviar</button>
+
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+<!-- >>>>>>>>>>>>>>> F O O T E R <<<<<<<<<<<<<<<   -->
+
+<footer class="flex-c container">
+   
+    
+    <div class="feito-por">
+        <span> © 2024 Desenvolvido por Cyber Sapiens</span>
+
+    </div>
+</footer>
+
+<!-- link app.js  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+    
+</body>
+</html>
